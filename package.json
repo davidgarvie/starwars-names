@@ -1,0 +1,20 @@
+{
+  "name": "@davidgarvie/starwars-names",
+  "version": "1.0.0",
+  "description": "This is a sample repo to follow along with Kent C. Dodds Egghead tutorial on [How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgarvie/starwars-names.git"
+  },
+  "keywords": ["random", "star", "wars"],
+  "author": "David Garvie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgarvie/starwars-names/issues"
+  },
+  "homepage": "https://github.com/davidgarvie/starwars-names#readme"
+}
