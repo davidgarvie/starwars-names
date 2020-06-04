@@ -1,10 +1,13 @@
 {
   "name": "@davidgarvie/starwars-names",
   "version": "1.2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "This is a sample repo to follow along with Kent C. Dodds Egghead tutorial on [How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,9 @@
   "homepage": "https://github.com/davidgarvie/starwars-names#readme",
   "dependencies": {
     "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
   }
 }
