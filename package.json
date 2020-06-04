@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/davidgarvie/starwars-names.git"
   },
-  "keywords": ["random", "star", "wars"],
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
   "author": "David Garvie",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/davidgarvie/starwars-names/issues"
   },
-  "homepage": "https://github.com/davidgarvie/starwars-names#readme"
+  "homepage": "https://github.com/davidgarvie/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
 }
