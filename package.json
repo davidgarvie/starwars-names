@@ -1,6 +1,6 @@
 {
   "name": "@davidgarvie/starwars-names",
-  "version": "1.2.0-beta.0",
+  "version": "1.2.0",
   "description": "This is a sample repo to follow along with Kent C. Dodds Egghead tutorial on [How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)",
   "main": "src/index.js",
   "scripts": {
